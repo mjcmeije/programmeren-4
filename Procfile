@@ -1,1 +1,1 @@
-web: node ./training1/MyRandoUser/myrandomuser.js
+web: node ./training1/MyRandomUser/myrandomuser.js
