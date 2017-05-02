@@ -2,10 +2,13 @@
   "name": "myrandomuser",
   "version": "1.0.0",
   "description": "Random User Generator REST API in Node.js",
-  "main": "./training1/MyRandomUser/myrandomuser.js",
+  "main": "programmeren-4/training1/MyRandomUser/myrandomuser.js",
   "scripts": {
-    "start": "node ./training1/MyRandomUser/myrandomuser.js"
+    "start": "node programmeren-4/training1/MyRandomUser/myrandomuser.js"
   },
   "author": "Mark Meijer",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
