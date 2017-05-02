@@ -4,7 +4,7 @@
   "description": "Random User Generator REST API in Node.js",
   "main": "./training1/MyRandomUser/myrandomuser.js",
   "scripts": {
-    "test": "node ./training1/MyRandomUser/myrandomuser.js"
+    "start": "node ./training1/MyRandomUser/myrandomuser.js"
   },
   "author": "Mark Meijer",
   "license": "ISC"
