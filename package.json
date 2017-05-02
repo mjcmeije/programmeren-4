@@ -1,0 +1,19 @@
+{
+  "name": "myrandomuser",
+  "version": "1.0.0",
+  "description": "Random User Generator REST API in Node.js",
+  "main": "./training1/MyRandomUser/myrandomuser.js",
+  "scripts": {
+    "test": "node ./training1/MyRandomUser/myrandomuser.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjcmeije/programmeren-4.git"
+  },
+  "author": "Mark Meijer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjcmeije/programmeren-4/issues"
+  },
+  "homepage": "https://github.com/mjcmeije/programmeren-4#readme"
+}

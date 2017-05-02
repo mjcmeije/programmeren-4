@@ -1,0 +1,1 @@
+web: node ./training1/MyRandoUser/myrandomuser.js
