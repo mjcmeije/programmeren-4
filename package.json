@@ -6,14 +6,6 @@
   "scripts": {
     "test": "node ./training1/MyRandomUser/myrandomuser.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mjcmeije/programmeren-4.git"
-  },
   "author": "Mark Meijer",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mjcmeije/programmeren-4/issues"
-  },
-  "homepage": "https://github.com/mjcmeije/programmeren-4#readme"
+  "license": "ISC"
 }
