@@ -2,6 +2,7 @@
  * Created by bcc on 18-4-2017.
  */
 
+var config  = require('./config.json');
 var express = require('express');
 var app = express();
 
@@ -29,7 +30,7 @@ app.all('*', function(request, response) {
 })
 
 // Start the server
-var port = process.env.PORT || app.get('PORT');
+var port = process.env.port || app.get('PORT');
 
 app.listen(port, function() {
     console.log('The magic happens at http://localhost:'+ port + ' !!!!!!!');
