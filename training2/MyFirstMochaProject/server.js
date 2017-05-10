@@ -2,11 +2,11 @@
  * Created by bcc on 18-4-2017.
  */
 
-//var config  = require('./config.json');
+var config  = require('./config.json');
 var express = require('express');
 var app = express();
 
-//app.set('PORT', config.webPort);
+app.set('PORT', config.webPort);
 
 app.get('/', function(request, response) {
     response.send('My First Mocha Project!');
@@ -30,7 +30,7 @@ app.all('*', function(request, response) {
 })
 
 // Start the server
-var port = process.env.port || 8080;
+var port = process.env.port || app.get('PORT');
 
 app.listen(port);
 
